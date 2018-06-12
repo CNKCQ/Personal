@@ -117,3 +117,13 @@ source $ZSH/oh-my-zsh.sh
  if [ -f ~/.aliasrc ]; then
     . ~/.aliasrc
  fi
+
+# keymapping mode
+# default is Emacs mode
+ bindkey "^B" backward-word
+ bindkey "^F" forward-word
+
+ # vi mode
+ # if [ -f ~/.zlerc ]; then
+ #  . ~/.zlerc
+ # fi
