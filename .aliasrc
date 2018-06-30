@@ -152,3 +152,6 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # copy dir to dir
 alias cpr='cp -r'
+
+# proxy
+alias proxy='proxychains4 '
