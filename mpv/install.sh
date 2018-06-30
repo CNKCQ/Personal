@@ -7,7 +7,6 @@ if test ! $(which mpv); then
 	echo "mpv installing "
 	brew tap mpv-player/mpv
 	brew install mpv --with-bundle
-	brew linkapps mpv
 fi
 
 echo "mpv configuring"
