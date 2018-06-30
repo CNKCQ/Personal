@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/Users/$(whoami)/.oh-my-zsh
 
+# path to fix proxy
+  export PATH=$HOME/usr/bin:$PATH
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -127,3 +130,4 @@ source $ZSH/oh-my-zsh.sh
  # if [ -f ~/.zlerc ]; then
  #  . ~/.zlerc
  # fi
+
