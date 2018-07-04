@@ -1,0 +1,11 @@
+# github
+host github.com
+    # 配置代理
+    ProxyCommand /usr/bin/nc -X 5 -x 127.0.0.1:1080 %h %p
+    HostName github.com
+    IdentityFile ~/.ssh/personal_github_rsa
+
+# gitlab
+host gitlab.com
+    HostName gitlab.com
+    IdentityFile ~/.ssh/personal_gitlab_rsa
