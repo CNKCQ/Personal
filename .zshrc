@@ -84,6 +84,11 @@ plugins=(
   pod
   python
   sublime
+  vi-mode
+  vim-interaction
+  xcode
+  fabric
+  iterm2
 )
 
 source $ZSH/oh-my-zsh.sh

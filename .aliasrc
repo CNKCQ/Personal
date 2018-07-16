@@ -188,3 +188,11 @@ alias rmf='rm -r -f '
  # start or ended aria2 RPC Server
  alias aria2s='aria2c --enable-rpc --rpc-listen-all'
  alias aria2e='ps -ef |grep aria2c |awk '{print $2}'|xargs kill -9'
+# work space
+alias ws='cd ~/projects/LPDTeam/LPDTeamiOS/'
+
+#delete
+alias rmf='rm -r -f'
+
+# Change the default editor for files opened in the terminal
+export EDITOR=st
