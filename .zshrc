@@ -136,3 +136,5 @@ source $ZSH/oh-my-zsh.sh
  #  . ~/.zlerc
  # fi
 
+# for autojump
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
